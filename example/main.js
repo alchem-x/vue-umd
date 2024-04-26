@@ -3,7 +3,7 @@ const ss = (strings, ...keys) => strings.map((s, i) => s + (keys[i] ?? '')).join
 requirejs.config({
     enforceDefine: true,
     paths: {
-        'vue': ss`https://unpkg.com/vue-umd@3.2.31/dist/vue.umd.js`,
+        'vue': ss`https://unpkg.com/vue-umd@3.4.25/dist/vue.umd.js`,
     },
 })
 
