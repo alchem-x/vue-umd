@@ -15,3 +15,7 @@ Vue UMD
 ```sh
 npm run build
 ```
+
+### Example
+
+- [Vue UMD Example](./example)
