@@ -28,7 +28,7 @@ define(['vue'], ({ defineComponent }) => {
             },
             randomColor() {
                 const c = () => Math.trunc(Math.random() * 256).toString(16)
-                return `#${c()}${c()}${c()}`
+                return ['#', c(), c(), c()].join('')
             },
         },
         template: `
@@ -36,6 +36,5 @@ define(['vue'], ({ defineComponent }) => {
             Vue UMD
           </div>
         `,
-
     })
 })
