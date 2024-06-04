@@ -1,3 +1,3 @@
 # Example
 
-- https://alchemy-works.github.io/vue-umd/example/
+- https://alchem-x.github.io/vue-umd/example/
